@@ -94,7 +94,7 @@ const findTotal = (totalVal,dailyVal)=>{
 let count = 0;
 let totalHours = Array.from(empDailyWageMap.values()).reduce(findTotal,0);
 let totalSalary = empDailyWageArr.filter(dailyWage => dailyWage>0).reduce(findTotal,0);
-console.log("Emp Wage with Arrow: "+ "Total Hours: "+totalHours+ " Total Wages: "+totalSalary);
+console.log("Emp Wage with Arrow: "+ "Total Hours: "+totalHours+ " Total Wage: "+totalSalary);
 //Object Creation
 let totalEmpHr = 0;
 let totalWorkingDay = 0;
